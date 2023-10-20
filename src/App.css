@@ -1,8 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
 .code-editor-container {
-    width: 100%;
-    max-width: 1000px;
+    width: 80%;
     margin: 0 auto;
-    padding: 20px;
     border-radius: 10px;
 }
 
@@ -43,27 +46,4 @@
     border: 2px solid #ddd;
     pointer-events: none;
     user-select: none;
-}
-
-
-/* For screens smaller than 768px */
-
-@media (max-width: 768px) {
-    .code-editor-container {
-        padding: 10px;
-    }
-    .code-input {
-        height: 300px;
-        font-size: 12px;
-        width: 100%;
-    }
-}
-
-
-/* For screens between 768px and 1024px */
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .code-editor-container {
-        max-width: 1000px;
-    }
 }
