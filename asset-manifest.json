@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/codeEditor/static/css/main.6dd28b8b.css",
+    "main.css": "/codeEditor/static/css/main.20421886.css",
     "main.js": "/codeEditor/static/js/main.3f5a9a29.js",
     "index.html": "/codeEditor/index.html",
-    "main.6dd28b8b.css.map": "/codeEditor/static/css/main.6dd28b8b.css.map",
+    "main.20421886.css.map": "/codeEditor/static/css/main.20421886.css.map",
     "main.3f5a9a29.js.map": "/codeEditor/static/js/main.3f5a9a29.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dd28b8b.css",
+    "static/css/main.20421886.css",
     "static/js/main.3f5a9a29.js"
   ]
 }
