@@ -2,7 +2,7 @@
     "name": "codeeditor",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://Akash456789.github.io/codeEditor",
+    "homepage": "http://Akash456789.github.io/codeeditor",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
