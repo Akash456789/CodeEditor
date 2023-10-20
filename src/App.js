@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CopyButton from './ButtonComponents/CopyButton';
 import SaveButton from './ButtonComponents/SaveButton';
 import LockButton from './ButtonComponents/LockButton';
-import './App.css'; // Import the alternate CSS file
+import './App.css';
 
 const CodeEditor = () => {
   const [code, setCode] = useState('');
