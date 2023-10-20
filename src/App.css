@@ -69,6 +69,6 @@ body {
 
 @media (max-width: 480px) {
     .code-input {
-        height: 300px;
+        height: 200px;
     }
 }
