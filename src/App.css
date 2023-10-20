@@ -1,16 +1,25 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 .code-editor-container {
-    width: 80%;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 .button-container {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .button-container button {
@@ -18,7 +27,7 @@
     color: white;
     border: none;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin: 0 5px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -39,6 +48,7 @@
     background-color: #fff;
     color: black;
     resize: vertical;
+    margin-bottom: 20px;
 }
 
 .code-input.locked {
@@ -46,4 +56,19 @@
     border: 2px solid #ddd;
     pointer-events: none;
     user-select: none;
+}
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .code-editor-container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .code-input {
+        height: 200px;
+    }
 }
