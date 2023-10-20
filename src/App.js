@@ -30,7 +30,6 @@ const handleSaveClick = () => {
   alert('Code saved!');
 };
 
-
   const handleLockUnlockClick = () => {
     setIsLocked(!isLocked);
   };

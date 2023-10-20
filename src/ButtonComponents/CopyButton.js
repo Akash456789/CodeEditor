@@ -5,4 +5,3 @@ const CopyButton = ({ handleCopyClick }) => {
 };
 
 export default CopyButton;
-
